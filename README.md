@@ -1,0 +1,2 @@
+# useEffect Cleanup Function Not Called on Unmount
+This example demonstrates a common issue where the cleanup function in a React `useEffect` hook is not being called when the component unmounts. The problem is likely due to incorrect use of the dependency array causing unexpected re-renders or a logic error in the component lifecycle.
